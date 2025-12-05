@@ -31,9 +31,6 @@ def show_config() -> None:
 
 def show_version() -> None:
     """Display application version."""
-    version_text = (
-        f"[bold blue]Demo CLI[/bold blue] version "
-        f"[bold green]{__version__}[/bold green]"
-    )
+    version_text = f"[bold blue]Demo CLI[/bold blue] version [bold green]{__version__}[/bold green]"
     console.print(version_text)
     typer.echo("Built with modern Python best practices")
