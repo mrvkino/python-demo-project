@@ -11,13 +11,13 @@ A modern Python CLI application built with best practices and Python 3.14+ featu
 - Comprehensive testing with pytest
 - CI/CD ready with GitHub Actions
 - Modern dependency management with `uv`
-- Uses latest Python 3.13+ features
+- Uses latest Python 3.14+ features
 
 ## Installation
 
 ### Prerequisites
 
-- Python 3.13 or higher
+- Python 3.14 or higher
 - `uv` package manager (recommended)
 
 ### From source with uv
@@ -82,7 +82,7 @@ uv run pre-commit install
 
 ## Project Structure
 
-```
+```bash
 demo-cli/
 ├── src/demo_cli/          # Main package
 │   ├── __init__.py

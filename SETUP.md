@@ -93,7 +93,7 @@ This project leverages Python 3.14 features:
 
 ## Project Structure
 
-```
+```bash
 demo-cli/
 ├── .python-version         # uv reads this for Python version
 ├── pyproject.toml          # Project metadata with uv config
@@ -106,11 +106,11 @@ demo-cli/
 
 ## Troubleshooting
 
-### Python 3.13 not found
+### Python 3.14 not found
 
 ```bash
-# Let uv install Python 3.13
-uv python install 3.13
+# Let uv install Python 3.14
+uv python install 3.14
 
 # Or check current Python
 python --version

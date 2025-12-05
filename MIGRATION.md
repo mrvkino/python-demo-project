@@ -1,35 +1,40 @@
-# Python 3.13+ CLI Project with uv
+# Python 3.14+ CLI Project with uv
 
 ## ✅ Completed Updates
 
-Your project has been modernized to use **Python 3.13+** with **uv** package manager and leverages all latest Python features.
+Your project has been modernized to use **Python 3.14+** with **uv** package manager and leverages all latest Python features.
 
-### Key Changes:
+### Key Changes
 
 #### 1. **Python Version**
-- Updated to **Python 3.13** (requires-python = ">=3.13")
+
+- Updated to **Python 3.14** (requires-python = ">=3.14")
 - Single target version for optimal performance
-- All type hints use modern Python 3.13 syntax
+- All type hints use modern Python 3.14 syntax
 
 #### 2. **Package Management (uv)**
+
 - Switched build backend to `hatchling` (lightweight and fast)
 - `.python-version` file for uv auto-detection
 - `pyproject.toml` compatible with uv workflow
 - Fast dependency resolution and caching
 
-#### 3. **Modern Python 3.13+ Features Used**
+#### 3. **Modern Python 3.14+ Features Used**
 
 **Type Hints:**
+
 - `collections.abc.Callable` instead of `typing.Callable`
 - Explicit type annotations with `str | None` style (native union)
 - Better inference with modern Pydantic v2
 
 **Code Quality:**
+
 - Strict mypy configuration enabled
 - Full type coverage throughout codebase
-- Better exception handling with Python 3.13's improvements
+- Better exception handling with Python 3.14's improvements
 
 **Dependencies:**
+
 - `typer[all]>=0.9.0` - Modern CLI framework
 - `pydantic>=2.5.0` - Latest validation
 - `structlog>=24.0.0` - Structured logging
@@ -44,12 +49,13 @@ Your project has been modernized to use **Python 3.13+** with **uv** package man
 
 #### 5. **Configuration Files**
 
-- **.python-version** - Tells uv to use Python 3.13
-- **pyproject.toml** - Updated with hatchling, Python 3.13, ruff config
-- **.pre-commit-config.yaml** - Uses ruff, updated for Python 3.13
+- **.python-version** - Tells uv to use Python 3.14
+- **pyproject.toml** - Updated with hatchling, Python 3.14, ruff config
+- **.pre-commit-config.yaml** - Uses ruff, updated for Python 3.14
 - **.github/workflows/tests.yml** - Uses uv for fast CI/CD
 
 #### 6. **Tests**
+
 - `test_main.py` - Updated for Typer's CliRunner
 - `test_config.py` - Pydantic v2 compatible
 - `test_commands.py` - Modern pytest patterns with markers
@@ -71,7 +77,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 ```bash
 cd /Users/mrogersvallee/Documents/Project/vsccode-copilot/python-demo-project
 
-# Install Python 3.13 (if needed)
+# Install Python 3.14 (if needed)
 uv python install
 
 # Sync dependencies
@@ -101,7 +107,7 @@ uv run mypy src
 | CLI Framework | Click | **Typer** |
 | Formatters | Black, isort | **Ruff** |
 | Linters | flake8, Black | **Ruff** |
-| Python Version | 3.10-3.12 | **3.13+** |
+| Python Version | 3.10-3.12 | **3.14+** |
 | Type Hints | typing.Optional | **str \| None** |
 | Config Style | class Config | **SettingsConfigDict** |
 
@@ -115,7 +121,7 @@ uv run mypy src
 - ✅ `.github/workflows/tests.yml` - uv integration
 - ✅ `.pre-commit-config.yaml` - Ruff + mypy
 - ✅ `tests/test_*.py` - Updated for new frameworks
-- ✅ `.python-version` - Python 3.13 marker
+- ✅ `.python-version` - Python 3.14 marker
 - ✅ `README.md` - Updated documentation
 - ✅ `SETUP.md` - Complete setup guide
 
@@ -131,11 +137,11 @@ uv run mypy src
 ## 📚 References
 
 - [uv Documentation](https://docs.astral.sh/uv/)
-- [Python 3.13 Features](https://docs.python.org/3.13/whatsnew/3.13.html)
+- [Python 3.14 Features](https://docs.python.org/3.14/whatsnew/3.14.html)
 - [Typer Docs](https://typer.tiangolo.com/)
 - [Pydantic v2](https://docs.pydantic.dev/)
 - [Ruff](https://docs.astral.sh/ruff/)
 
 ---
 
-Your project is now **production-ready** with modern Python 3.13+ best practices! 🎉
+Your project is now **production-ready** with modern Python 3.14+ best practices! 🎉
