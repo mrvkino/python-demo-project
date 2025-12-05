@@ -94,6 +94,14 @@ warn_unused_ignores = true
 warn_no_return = true
 strict = true
 
+[tool.pylint.messages_control]
+disable = [
+    "line-too-long",  # E501 - handled by formatter
+]
+
+[tool.pylint.format]
+max-line-length = 100
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "--cov=src/demo_cli --cov-report=term-missing --cov-report=html --strict-markers"
