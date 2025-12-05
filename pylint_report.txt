@@ -1,0 +1,12 @@
+************* Module demo_cli.config
+src/demo_cli/config.py:37:0: C0305: Trailing newlines (trailing-newlines)
+************* Module demo_cli.__init__
+src/demo_cli/__init__.py:8:0: C0305: Trailing newlines (trailing-newlines)
+************* Module demo_cli.commands.greet
+src/demo_cli/commands/greet.py:27:0: C0305: Trailing newlines (trailing-newlines)
+************* Module tests.test_async
+tests/test_async.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.71/10 (previous run: 8.61/10, +1.09)
+
